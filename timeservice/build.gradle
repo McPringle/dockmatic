@@ -20,3 +20,7 @@ dependencies {
             'javax:javaee-api:7.0'
     )
 }
+
+tasks.named('wrapper') {
+    distributionType = Wrapper.DistributionType.ALL
+}
