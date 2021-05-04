@@ -12,7 +12,7 @@ repositories {
 }
 
 war {
-    archiveName 'helloservice.war'
+    archiveFileName = 'helloservice.war'
 }
 
 dependencies {

@@ -12,7 +12,7 @@ repositories {
 }
 
 war {
-    archiveName 'timeservice.war'
+    archiveFileName = 'timeservice.war'
 }
 
 dependencies {
